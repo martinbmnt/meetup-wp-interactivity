@@ -122,7 +122,7 @@ Les blocs dynamiques peuvent également utiliser une partie statique, avec la m�
         if ( ! state.isVisible ) state.isActive = false;
       },
     },
-} );
+  });
 </script>
 ```
 
@@ -242,7 +242,7 @@ $context = array( 'isVisible' => false );
         context.isVisible = ! context.isVisible;
       },
     },
-} );
+  });
 </script>
 ```
 
@@ -293,7 +293,7 @@ Cette fonctionnalité permet de séparer la logique de gestion d'état et des va
       }
     },
     ...
-} );
+  });
 </script>
 ```
 
@@ -399,7 +399,7 @@ Ces directives sont interprétables en _SSR_.
         console.log('Init at' + new Date());
       },
     },
-} );
+  });
 </script>
 ```
 
