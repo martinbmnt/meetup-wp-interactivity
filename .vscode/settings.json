@@ -1,0 +1,5 @@
+{
+    "markdown.marp.themes": [
+        "./themes/nord-theme.css"
+    ]
+}
