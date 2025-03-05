@@ -1,0 +1,28 @@
+{
+  "name": "meetup-wp-interactivity-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Démonstration de blocs pour le MeetUp WP sur l'API Interactivity",
+  "keywords": [
+    "WordPress",
+    "Gutenberg",
+    "Block Editor",
+    "Theme"
+  ],
+  "author": {
+    "name": "Martin Beaumont",
+    "email": "hello@martinbeaumont.dev",
+    "url": "https://www.martinbeaumont.dev"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "wp-env": "wp-env",
+    "start": "wp-env start",
+    "update": "wp-env start --update",
+    "stop": "wp-env stop",
+    "destroy": "wp-env destroy"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.19.0"
+  }
+}
