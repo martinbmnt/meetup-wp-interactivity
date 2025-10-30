@@ -1,0 +1,52 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wpinteractivitydemo-plugin-interactive-posts-with-categories {
+	.categories {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--wp--style--block-gap);
+		list-style: none;
+		padding-inline-start: unset;
+
+		button {
+			padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
+			border: 1px solid var(--wp--preset--color--black);
+			border-radius: .5rem;
+			cursor: pointer;
+			font-size: var(--wp--preset--font-size--medium);
+			background-color: unset;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&:focus {
+				outline: 1px solid currentColor;
+				text-decoration: underline;
+			}
+
+			&.active {
+				background-color: var(--wp--preset--color--contrast);
+				color: var(--wp--preset--color--base);
+			}
+		}
+	}
+
+	.posts {
+		display: grid;
+		grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+		gap: calc(var(--wp--style--block-gap) * 2) var(--wp--style--block-gap);
+		list-style: none;
+
+		h2 {
+			& + p {
+				font-size: var(--wp--preset--font-size--medium);
+			}
+		}
+	}
+}

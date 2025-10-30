@@ -28,5 +28,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function create_block_plugin_block_init() {
 	register_block_type( __DIR__ . '/build/blocks/posts-with-categories' );
+	register_block_type( __DIR__ . '/build/blocks/interactive-posts-with-categories' );
 }
 add_action( 'init', 'create_block_plugin_block_init' );

@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpinteractivitydemo-plugin/interactive-posts-with-categories",
+	"version": "0.1.0",
+	"title": "Interactive Posts With Categories",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "An interactive block with the Interactivity API.",
+	"example": {},
+	"supports": {
+		"align": true,
+		"alignWide": true,
+		"html": false,
+		"interactivity": true
+	},
+	"textdomain": "interactive-posts-with-categories",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
