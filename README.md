@@ -25,12 +25,12 @@ Des blocs Gutenberg interactifs en quelques lignes !
   - WordPress, Symfony, Astro
 - Motivé par l'accessibilité et l'écoconception numérique
 
-<!-- header: Historique | Découverte de l'API _Interactivity_ -->
-
 ## Gutenberg et le FSE
 
 - Première intégration de Gutenberg dans WordPress 5.0 (2018)
 - Ajout du Full Site Editing dans WordPress 6.2 (2023)
+
+<!-- header: Historique | Découverte de l'API _Interactivity_ -->
 
 ## Blocs Gutenberg
 
